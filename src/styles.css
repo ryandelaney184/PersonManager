@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+/**
+ * The * is the all selector this will effect all elements.  The current
+ * CSS reset the margin, and padding for all elements.
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
