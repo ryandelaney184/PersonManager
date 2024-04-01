@@ -1,0 +1,8 @@
+.employeeHeader {
+  width: 100%;
+}
+
+.employeeHeader span {
+  display: inline-block;
+  width: 25%;
+}

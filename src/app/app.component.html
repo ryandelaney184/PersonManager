@@ -28,9 +28,7 @@
     how much they are payed.-->
     <span class="employeeListView">
       <div *ngFor="let employee of employeeViewList">
-        <span [textContent]="employee.Name" class="employeeHeader"></span>
-        <span [textContent]="employee.Position" class="employeeHeader"></span>
-        <span [textContent]="employee.Pay" class="employeeHeader"></span>
+        <employee-viewer [employee]="employee"></employee-viewer>
       </div>
     </span>
 </div>

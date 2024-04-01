@@ -3,11 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import {Employee} from "./objects/employee";
 import {NgForOf} from "@angular/common";
 import {FormsModule} from "@angular/forms";
+import {EmployeeViewerComponent} from "./ui/components/employee-viewer/employee-viewer.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NgForOf, FormsModule],
+  imports: [RouterOutlet, NgForOf, FormsModule, EmployeeViewerComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
